@@ -2,6 +2,8 @@
 
 ## TLDR
 
+💁 Your credentials are NO LONGER your email+password, it is now your service credentials.
+
 ```sh
 # OpenVPN
 docker run -it --rm --cap-add=NET_ADMIN --device /dev/net/run \
@@ -9,8 +11,6 @@ docker run -it --rm --cap-add=NET_ADMIN --device /dev/net/run \
 -e OPENVPN_USER=abc -e OPENVPN_PASSWORD=abc \
 -e SERVER_COUNTRIES=Netherlands qmcgaw/gluetun
 ```
-
-💁 Your credentials are NO LONGER your email+password, it is now your service credentials.
 
 ```sh
 # Wireguard
